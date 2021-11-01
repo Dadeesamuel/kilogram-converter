@@ -36,9 +36,17 @@ body{
      input{
        background-color: green;
        width: 57mm;
-       height: 6.9mm;
+       height: 10.9mm;
        font-family: Arial, Helvetica, sans-serif;
     }
+}
+@media screen and (orientation: landscape) {
+    input{
+      background-color: green;
+      width: 57mm;
+      height: 10.9mm;
+      font-family: Arial, Helvetica, sans-serif;
+   }
 }
 /*  responsiveness for  small screen devices (html body tag)*/
 @media screen and (max-width:600px) {
